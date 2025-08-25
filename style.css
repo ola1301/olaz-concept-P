@@ -85,6 +85,11 @@ html {
       color: #68c2d6;
     }
 
+    body.dark .highlight {
+      color: #68c2d6;
+      font-weight: bold;
+    }
+
     body.dark .hero p {
       color: #b9d9e0;
     }
@@ -1394,6 +1399,7 @@ nav ul li a.active:hover {
     padding: 10px;
   }
 }
+
 
 
 
