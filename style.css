@@ -7,7 +7,8 @@
 }
 
 body {
-  background: linear-gradient(to right, #b9d9e0, #b8c3c5, #b8c3c5, #fff);
+  /* background: linear-gradient(to right, #b9d9e0, #b8c3c5, #b8c3c5, #fff); */
+  background: #a3a3a3;
   color: #222;
   line-height: 1.6;
   
@@ -83,11 +84,6 @@ html {
 
     body.dark .hero h1 span {
       color: #68c2d6;
-    }
-
-    body.dark .highlight {
-      color: #68c2d6;
-      font-weight: bold;
     }
 
     body.dark .hero p {
@@ -287,7 +283,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 8%;
-  background: #dde8eb;
+  background: #a3a3a3;
   position: fixed;
   top: 0;
   left: 0;
@@ -309,7 +305,8 @@ header {
  font-size: 18px;
  margin-left: -15px; 
  cursor: pointer;
- background: linear-gradient(90deg, #d6b916, #ffc400b7, #FFA500);
+ /* background: linear-gradient(90deg, #d6b916, #ffc400b7, #FFA500); */
+ background: darkslategrey;
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
  background-clip: text;
@@ -332,7 +329,8 @@ header {
   left:0; 
   right:0; 
   height:3px; 
-  background: #b9d9e0; 
+  /* background: #b9d9e0;  */
+  background: gold;
   border-radius:2px; 
   transition:.25s; 
 }
@@ -405,7 +403,7 @@ nav ul li a.active:hover {
   padding: 10px 20px;
   border-radius: 6px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: bold;
   transition: 0.3s;
   margin-left: 25px;
 }
@@ -423,8 +421,9 @@ nav ul li a.active:hover {
   align-items: center;
   justify-content: space-between;
   padding: 120px 8% 200px;
-  background: linear-gradient(to right, #b9d9e0, #b8c3c5, #b8c3c5, #fff);
-  
+  /* background: linear-gradient(to right, #b9d9e0, #b8c3c5, #b8c3c5, #fff); */
+  background: #a3a3a3;
+  margin-top: 80px;
 }
 
 .hero-text {
@@ -470,12 +469,13 @@ nav ul li a.active:hover {
 }
 
 .stat-box {
-  background: linear-gradient(to right, #b9d9e0, #b8c3c5, #b8c3c5, #fff);
+  /* background: linear-gradient(to right, #b9d9e0, #b8c3c5, #b8c3c5, #fff); */
+  background: #f0eeee;
   padding: 22px;
   text-align: center;
   border-radius: 8px;
   flex: 1;
-  box-shadow: 0 5px 15px #b9d9e0;
+  box-shadow: 0 5px 15px #000;
   transition: all 0.3s ease-in-out;
 }
 
@@ -498,7 +498,7 @@ nav ul li a.active:hover {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background: #b9d9e0;
+  background: #71cfe4;
   color: #fff;
   padding: 12px;
   border-radius: 50%;
@@ -522,8 +522,9 @@ nav ul li a.active:hover {
   padding: 60px 8% 150px;
   width: 95%;
   border-radius: 15px;
-  background: linear-gradient(to right, #fff, #b8c3c5, #b8c3c5, #b9d9e0);
-  box-shadow: 0 10px 20px #b1d8e0;
+  /* background: linear-gradient(to right, #fff, #b8c3c5, #b8c3c5, #b9d9e0); */
+  background: #f0eeee;
+  box-shadow: 0 3px 10px #000;
 }
 
 .about-img {
@@ -651,7 +652,8 @@ nav ul li a.active:hover {
 
  /* --- Skills Section --- */
     .skills {
-      background: linear-gradient(to right, #fff, #b8c3c5, #b9d9e0);
+      /* background: linear-gradient(to right, #fff, #b8c3c5, #b9d9e0); */
+      background: #f0eeee;
       color: #000;
       padding: 60px 50px;
       margin-top: 50px;
@@ -756,9 +758,10 @@ nav ul li a.active:hover {
     }
 
     .card {
-      background: linear-gradient(to right, #fff, #b8c3c5, #b9d9e0);
+      /* background: linear-gradient(to right, #fff, #b8c3c5, #b9d9e0); */
+      background: #f0eeee;
       border-radius: 12px;
-      box-shadow: 0 5px 12px #b9d9e0;
+      box-shadow: 0 2px 8px #000;
       overflow: hidden;
       transition: transform 0.3s ease;
       text-align: left;
@@ -801,7 +804,7 @@ nav ul li a.active:hover {
     .card a {
       font-size: 0.9rem;
       text-decoration: none;
-      color: #b1d8e0;
+      color: #000;
       font-weight: bold;
       transition: color 0.3s ease;
       border: 1px solid gray;
@@ -811,7 +814,7 @@ nav ul li a.active:hover {
 
     .card a:hover {
       text-decoration: none;
-      color: #6ad4e9;
+      color: #33bfdb;
       border: 1px solid #6ad4e9;
     }
 
@@ -820,11 +823,12 @@ nav ul li a.active:hover {
     }
 
     .more-btn button {
-      background: #9ad9e6;
-      color: #fff;
+      background: #fff;
+      color: #000;
       border: none;
       padding: 12px 30px;
       border-radius: 25px;
+      box-shadow: 0 2px 8px #000 ;
       font-size: 1rem;
       cursor: pointer;
       transition: color 0.5s ease;
@@ -866,9 +870,10 @@ nav ul li a.active:hover {
 }
 
 .service-card {
-  background: linear-gradient(to right, #fff, #b8c3c5, #b8c3c5, #b9d9e0);
+  /* background: linear-gradient(to right, #fff, #b8c3c5, #b8c3c5, #b9d9e0); */
+  background: #f0eeee;
   border-radius: 14px;
-  box-shadow: 0 4px 12px #b9d9e0;
+  box-shadow: 0 4px 10px #b9d9e0;
   padding: 32px 20px;
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -887,7 +892,7 @@ nav ul li a.active:hover {
   font-size: 2.2rem;
   color: #68c2d6;
   margin-bottom: 18px;
-  background: #eaf6fa;
+  background: #f0eeee;
   border-radius: 50%;
   padding: 16px;
   box-shadow: 0 0px 5px #b9d9e0;
@@ -914,9 +919,14 @@ nav ul li a.active:hover {
 
 /* Project Section */
 .project-section {
-  background: linear-gradient(to right, #fff, #b8c3c5, #b9d9e0);
+  /* background: linear-gradient(to right, #fff, #b8c3c5, #b9d9e0); */
+  background: #f0eeee;
+  box-shadow: 0 2px 8px #000;
   color: #111;
+  border-radius: 30px;
   padding: 60px 20px;
+  max-width: 97%;
+  margin: auto;
   /* border-radius: 50px; */
 }
 
@@ -955,11 +965,12 @@ nav ul li a.active:hover {
   flex: 1;
   width: 100%;
   max-width: 900px;
-  background: linear-gradient(to right, #b9d9e0, #b8c3c5, #fff);
+  background: rgba(128, 128, 128, 0.007);
+  /* background: linear-gradient(to right, #b9d9e0, #b8c3c5, #fff); */
   padding: 20px;
   margin: 50px auto;
   border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .project-form form {
@@ -973,7 +984,7 @@ nav ul li a.active:hover {
 .project-form input,
 .project-form textarea {
   padding: 12px;
-  border: 1px solid #b1d8e0;
+  border: 1px solid #19c8f0;
   border-radius: 6px;
   font-size: 15px;
   background-color: transparent;
@@ -1011,6 +1022,7 @@ nav ul li a.active:hover {
 .contact-section {
   text-align: center;
   padding: 50px 20px;
+  /* box-shadow: 0 3px 12px #000; */
 }
 
 .contact-section h2 {
@@ -1032,7 +1044,8 @@ nav ul li a.active:hover {
 }
 
 .contact-card {
-  background: linear-gradient(to right, #fff, #b8c3c5, #b9d9e0);
+  /* background: linear-gradient(to right, #fff, #b8c3c5, #b9d9e0); */
+  background: #fff;
   padding: 20px;
   border-radius: 10px;
   flex: 1;
@@ -1399,8 +1412,6 @@ nav ul li a.active:hover {
     padding: 10px;
   }
 }
-
-
 
 
 
