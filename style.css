@@ -1032,6 +1032,11 @@ nav ul li a.active:hover {
     font-size: 1.5rem;
     padding: 10px;
   }
+.project-form input,
+.project-form textarea {
+  
+  width: 250px;
+}
 }
 @media (max-width: 400px) {
   .skills-grid {
@@ -1062,4 +1067,10 @@ nav ul li a.active:hover {
 .card img {
   height: 240px;
 }
+.project-form input,
+.project-form textarea {
+  
+  width: 250px;
 }
+}
+
