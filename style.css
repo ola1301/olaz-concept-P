@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 html {
@@ -45,14 +45,14 @@ body.dark {
   background: linear-gradient(to right, #000, #000, #000, #131a1b);
   color: #f4f8fb; /* Brighter text color */
 }
+body.dark .hero{
+  background: linear-gradient(to right, #000, #000, #000, #131a1b);
+}
 body.dark header,
-body.dark .hero,
 body.dark .about,
 body.dark .skills,
-body.dark .portfolio,
 body.dark .services,
-body.dark .project-section,
-body.dark .contact-section {
+body.dark .project-section {
   background: #131a1b;
   color: #f4f8fb; /* Brighter text color */
 }
@@ -93,11 +93,11 @@ body.dark .contact-card {
 body.dark .portfolio-grid .card,
 body.dark .service-card,
 body.dark .contact-card {
-  box-shadow: 0 0px 10px rgb(163, 214, 216);
+  box-shadow: 0 0px 5px rgba(163, 214, 216, 0.534);
 }
 body.dark .skill-card {
   background: #233235;
-  box-shadow: 0 0px 10px rgb(165, 206, 207);
+  box-shadow: 0 0px 5px rgba(165, 206, 207, 0.486);
 }
 body.dark .skill-title,
 body.dark .skill-level{
@@ -147,7 +147,7 @@ header {
   top: 0;
   left: 0;
   z-index: 1000;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0px 3px rgba(0, 0, 0, 0.212);
 }
 .logo {
   font-size: 22px;
@@ -282,7 +282,7 @@ nav ul li a.active:hover {
   width: 450px;
   height: 450px;
   border-radius: 50%;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 0px 5px rgba(0,0,0,0.1);
 }
 
 /* Stats Section */
@@ -299,7 +299,7 @@ nav ul li a.active:hover {
   text-align: center;
   border-radius: 8px;
   flex: 1;
-  box-shadow: 0 5px 15px #000;
+  box-shadow: 0 0px 3px #00000027;
   transition: all 0.3s ease-in-out;
 }
 .stat-box:hover {
@@ -329,7 +329,7 @@ nav ul li a.active:hover {
 }
 .back-to-top:hover {
   background: #76d9f0;
-  box-shadow: 0 5px 10px rgb(64, 175, 226);
+  box-shadow: 0 2px 5px rgb(64, 175, 226);
 }
 
 /* About Section */
@@ -343,7 +343,7 @@ nav ul li a.active:hover {
   width: 95%;
   border-radius: 15px;
   background: #fff;
-  box-shadow: 0 3px 10px #000;
+  box-shadow: 0 0px 5px #00000031;
 }
 .about-img {
   flex: 1;
@@ -353,7 +353,7 @@ nav ul li a.active:hover {
   width: 320px;
   height: 320px;
   border-radius: 50%;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 0px 5px rgba(0,0,0,0.1);
 }
 .social-links {
   margin-top: 20px;
@@ -406,60 +406,9 @@ nav ul li a.active:hover {
   background: #f5f5f5;
 }
 
-/* Work Process Section */
-.process {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 40px;
-  padding: 70px 8%;
-}
-.process-text {
-  flex: 1;
-  margin-top: 100px;
-}
-.process-text h2 {
-  font-size: 30px;
-  margin-bottom: 15px;
-}
-.process-text p {
-  margin-bottom: 15px;
-  color: #555;
-}
-.process-cards {
-  flex: 1.2;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-.process-cards .card {
-  background: linear-gradient(to right, #fff, #b8c3c5, #b9d9e0);
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 5px 12px #b9d9e0;
-  transition: 0.3s ease-in-out;
-}
-.process-cards .card:hover {
-  transform: translateY(-5px);
-}
-.process-cards .card i {
-  font-size: 28px;
-  color: #6a0dad;
-  background: #b9d9e0;
-  padding: 12px;
-  border-radius: 10px;
-  margin-bottom: 15px;
-  display: inline-block;
-  cursor: pointer;
-}
-.process-cards .card h3 {
-  margin-bottom: 10px;
-  font-size: 18px;
-}
-
-/* --- Skills Section (3D Cards with Skill Icons/Images) --- */
+/* --- Skills Section --- */
 .skills {
-  background: #f0eeee;
+  background: #fcfcfc;
   color: #000;
   padding: 60px 50px;
   margin-top: 50px;
@@ -486,7 +435,7 @@ nav ul li a.active:hover {
 .skill-card {
   background: #fff;
   border-radius: 18px;
-  box-shadow: 0 8px 24px #000;
+  box-shadow: 0 0px 5px #00000033;
   padding: 32px 20px 20px 20px;
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -499,7 +448,7 @@ nav ul li a.active:hover {
 }
 .skill-card:hover {
   transform: translateY(-8px) scale(1.04) rotateY(8deg);
-  box-shadow: 0 4px 10px #000;
+  box-shadow: 0 0px 5px #00000059;
 }
 .skill-icon {
   width: 60px;
@@ -510,7 +459,7 @@ nav ul li a.active:hover {
   justify-content: center;
   background: #f0eeee;
   border-radius: 50%;
-  box-shadow: 0 2px 8px #000;
+  box-shadow: 0 0px 5px #0000008a;
   transition: background 0.3s;
   font-size: 2.5rem;
   object-fit: contain;
@@ -552,9 +501,9 @@ nav ul li a.active:hover {
   gap: 40px;
 }
 .card {
-  background: #f0eeee;
+  background: #fcfcfc;
   border-radius: 12px;
-  box-shadow: 0 2px 8px #000;
+  box-shadow: 0 0px 3px #00000033;
   overflow: hidden;
   transition: transform 0.3s ease;
   text-align: left;
@@ -614,7 +563,7 @@ nav ul li a.active:hover {
   border: none;
   padding: 12px 30px;
   border-radius: 25px;
-  box-shadow: 0 2px 8px #000;
+  box-shadow: 0 0px 5px #0000004b;
   font-size: 1rem;
   cursor: pointer;
   transition: color 0.5s ease;
@@ -647,9 +596,9 @@ nav ul li a.active:hover {
   gap: 32px;
 }
 .service-card {
-  background: #f0eeee;
+  background: #fcfcfc;
   border-radius: 14px;
-  box-shadow: 0 4px 10px #000;
+  box-shadow: 0 0px 3px #00000033;
   padding: 32px 20px;
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -660,13 +609,13 @@ nav ul li a.active:hover {
 }
 .service-card:hover {
   transform: translateY(-8px) scale(1.03);
-  box-shadow: 0 2px 10px #86d7e9;
+  /* box-shadow: 0 0px 5px #86d7e98c; */
 }
 .service-card i {
   font-size: 2.2rem;
   color: #68c2d6;
   margin-bottom: 18px;
-  background: #f0eeee;
+  background: #fcfcfc;
   border-radius: 50%;
   padding: 16px;
   box-shadow: 0 0px 5px #b9d9e0;
@@ -690,8 +639,8 @@ nav ul li a.active:hover {
 
 /* Project Section */
 .project-section {
-  background: #f0eeee;
-  box-shadow: 0 2px 8px #000;
+  background: #fcfcfc;
+  /* box-shadow: 0 0px 5px #00000033;f0eeee */
   color: #111;
   border-radius: 30px;
   padding: 60px 20px;
@@ -730,7 +679,7 @@ nav ul li a.active:hover {
   padding: 20px;
   margin: 50px auto;
   border-radius: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 0px 5px rgba(0,0,0,0.1);
 }
 .project-form form {
   display: flex;
@@ -971,6 +920,7 @@ nav ul li a.active:hover {
 }
 .card img {
   height: 240px;
+
 }
 .card-content {
   margin-bottom: 50px;
@@ -1108,5 +1058,8 @@ nav ul li a.active:hover {
 }
 .stat-box {
   padding: 5px;
+}
+.card img {
+  height: 240px;
 }
 }
