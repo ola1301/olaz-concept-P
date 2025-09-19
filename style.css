@@ -191,7 +191,7 @@ header {
   left: 0;
   right: 0;
   height: 3px;
-  background: gold;
+  background: #68c2d6;
   border-radius: 2px;
   transition: .25s;
 }
@@ -1074,5 +1074,6 @@ nav ul li a.active:hover {
   width: 250px;
 }
 }
+
 
 
