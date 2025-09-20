@@ -382,7 +382,7 @@ nav ul li a.active:hover {
   color: #000;
 }
 .about-buttons {
-  margin-top: 20px;
+  margin-top: 60px;
   display: flex;
   gap: 15px;
   margin-left: -25px; 
@@ -1074,6 +1074,7 @@ nav ul li a.active:hover {
   width: 250px;
 }
 }
+
 
 
 
